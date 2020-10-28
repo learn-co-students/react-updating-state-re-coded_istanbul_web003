@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-ReactDOM.render(
-  <div>
-    Mount Components Here
+import ClickityClick from './components/ClickityClick';
+ReactDOM.render(<ClickityClick />, document.getElementById('root'));
   </div>,
   document.getElementById('root')
 );
